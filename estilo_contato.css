@@ -1,0 +1,194 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+
+}
+
+header {
+  height: 100px;
+  background-color: #605656;
+  padding: 10px 10px;
+  clear: both;
+  position: relative;
+  z-index: 3;
+}
+
+
+header a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+
+
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #fff;
+}
+
+header a:hover {
+  background-color: #383838;
+  opacity: 0.8;
+  color: #fff;
+  
+}
+
+
+.header-right {
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+}
+
+#sub-menu{
+  position: absolute;
+  display: block;
+  top: 77px;
+  right: 120px;
+}
+
+#sub-menu li {
+  display: none;
+  color: black;
+  padding-bottom: 3px;
+ 
+}
+
+#sub-menu li a{
+  margin-bottom: 2px;
+  background-color: #383838;
+  width: 172px;
+  color: #fff;
+}
+
+#cursos:hover #sub-menu li{
+  display: block;
+
+
+}
+
+
+/* main */
+
+
+
+
+
+
+
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#esquerdo {
+
+    float: left;
+    width: 400px;
+
+
+}
+
+
+#direito {
+    margin-top: -60px;
+    float: right;
+    width: 400px;
+}
+
+#direito input {
+    float: right;
+    width: 300px;
+}
+
+#direito textarea {
+    float: right;
+}
+
+#botao {
+    clear: both;
+    padding: 5px;
+}
+
+button {
+    margin: 0 auto;
+    width: 75px;
+    height: 25px;
+    background-color: #605656;
+    color: #fff;
+    display: block;
+
+}
+
+
+
+#esquerdo ul li {
+    list-style: none;
+    margin: 0px;
+    font-size: 25px;
+}
+
+#esquerdo ul li a {
+    text-decoration: none;
+    margin: -20px;
+}
+
+#esquerdo a:link,
+#esquerdo a:visited,
+#esquerdo a:active {
+    color: #605656;
+}
+
+#txtitulo {
+    margin-top: 15px;
+}
+
+#txtitulo h2 {
+    text-align: center;
+    margin: 0px;
+}
+
+#txtitulo small {
+    display: block;
+    text-align: center;
+
+}
+
+#imagem {
+    float: left;
+}
+
+#imagem img {
+    display: block;
+}
+
+#end {
+    float: left;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+#mapa {
+    float: left;
+    margin-left: 25px;
+    margin-top: 57px;
+}
+
+#end {
+    font-size: 18px;
+    font-family: Georgia, serif;
+}
